@@ -1,0 +1,147 @@
+
+.logo {
+  width: 248px;
+  height: 214px;
+  top: 27px;
+  left: 131px;
+  margin: auto;
+
+   
+}
+
+banner-content.h1 {
+  
+  margin: left 100px;
+  font-size: 54px;
+  text-align: center;
+}
+
+
+/* Estilos gerais da banner */
+.banner {
+background-image: url(/banner.png); /* Se a imagem não aparecer, verifique o caminho */
+background-color: rgba(0, 0, 0, 0.96);
+color: antiquewhite;
+width: 1440px; /* Definir largura como 100% para ocupar toda a tela */
+height: 605px; /* Altura definida para o banner */
+display: flex; /* Ativa o flexbox */
+justify-content: center; /* Centraliza horizontalmente */
+align-items: center; /* Centraliza verticalmente */
+text-align: center; /* Centraliza o texto dentro do container */
+border: 1px solid #33A8DB;
+position: relative;
+}
+
+.banner-content {
+text-align: center;
+}
+
+.banner h1 {
+color: #33A8DB; /* Cor azul claro para o título */
+font-size: 54px; /* Tamanho do título ajustado */
+margin-bottom: 20px;
+}
+
+.banner p {
+font-size: 18px;
+margin-bottom: 40px;
+color: #b0c4de; /* Cor mais clara para o texto */
+}
+
+.banner button {
+background-color: transparent;
+color: #33A8DB;
+padding: 15px 30px;
+font-size: 16px;
+border: 2px solid #33A8DB;
+border-radius: 5px;
+cursor: pointer;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.banner button:hover {
+background-color: #33A8DB;
+color: white;
+}
+
+/* Seção course-content */
+#course-content {
+background-color: rgba(0, 0, 0, 0.96);
+color: antiquewhite;
+width: 1440px; /* Definir largura como 100% para ocupar toda a tela */
+height: 605px; /* Altura definida para o banner */
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding: 50px 0;
+text-align: center;
+}
+
+/* Estilo para o título da seção */
+#course-content h2 {
+color: #33A8DB; /* Cor azul claro para o título */
+font-size: 32px;
+margin-bottom: 20px;
+}
+
+/* Estilo para o texto abaixo do título */
+#course-content p {
+color: #b0c4de;
+font-size: 18px;
+margin-bottom: 40px;
+}
+
+/* Estilos para os módulos */
+.modules-list {
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 20px; /* Espaçamento entre os módulos */
+}
+
+.module {
+background-color: #1C1C1C; /* Cor de fundo escura */
+color: white;
+border: 2px solid #33A8DB; /* Borda azul clara */
+border-radius: 30px; /* Bordas arredondadas */
+padding: 15px 30px;
+font-size: 18px;
+width: 80%; /* Largura de 80% da tela */
+max-width: 600px; /* Largura máxima */
+text-align: left;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Efeito de hover para os módulos */
+.module:hover {
+background-color: #33A8DB;
+color: white;
+cursor: pointer;
+}
+
+/* Estilo para o texto destacado (Módulo 01, 02, 03) */
+.module span {
+color: #33A8DB; /* Cor azul clara para os números dos módulos */
+font-weight: bold;
+}
+
+
+
+#transform-world {
+  background-image: url('assets/images/woman-code.png');
+  background-attachment: fixed; /* Fixa a imagem */
+  background-size: cover; /* A imagem cobre toda a área da página */
+  background-repeat: no-repeat; /* Impede que a imagem se repita */
+  background-position: center; /* Centraliza a imagem */
+  height: 100vh; /* Faz a imagem ocupar a altura total da viewport */
+  display: flex; /* Flexbox para centralizar conteúdo */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  color: white; /* Cor do texto para se destacar */
+  text-align: center;
+  width: 1440px;
+  height: 363px;
+  border: solid #33A8DB 1px 1px 1px;
+
+}
