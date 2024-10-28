@@ -22,7 +22,7 @@ banner-content.h1 {
 background-image: url(/banner.png); /* Se a imagem não aparecer, verifique o caminho */
 background-color: rgba(0, 0, 0, 0.96);
 color: antiquewhite;
-width: 1440px; /* Definir largura como 100% para ocupar toda a tela */
+width: 100%; /* Definir largura como 100% para ocupar toda a tela */
 height: 605px; /* Altura definida para o banner */
 display: flex; /* Ativa o flexbox */
 justify-content: center; /* Centraliza horizontalmente */
@@ -30,6 +30,8 @@ align-items: center; /* Centraliza verticalmente */
 text-align: center; /* Centraliza o texto dentro do container */
 border: 1px solid #33A8DB;
 position: relative;
+font: raleway;
+
 }
 
 .banner-content {
@@ -40,12 +42,21 @@ text-align: center;
 color: #33A8DB; /* Cor azul claro para o título */
 font-size: 54px; /* Tamanho do título ajustado */
 margin-bottom: 20px;
+font: raleway;
+
 }
 
 .banner p {
 font-size: 18px;
 margin-bottom: 40px;
 color: #b0c4de; /* Cor mais clara para o texto */
+width: 510px;
+height: 46px;
+font: raleway;
+font-weight: 400;
+font-size: 20px;
+line-height: 23.48px;
+
 }
 
 .banner button {
@@ -57,6 +68,9 @@ border: 2px solid #33A8DB;
 border-radius: 5px;
 cursor: pointer;
 transition: background-color 0.3s ease, color 0.3s ease;
+width: 326px;
+height: 57px;
+
 }
 
 .banner button:hover {
@@ -68,7 +82,7 @@ color: white;
 #course-content {
 background-color: rgba(0, 0, 0, 0.96);
 color: antiquewhite;
-width: 1440px; /* Definir largura como 100% para ocupar toda a tela */
+width: 100%; /* Definir largura como 100% para ocupar toda a tela */
 height: 605px; /* Altura definida para o banner */
 display: flex;
 flex-direction: column;
@@ -134,14 +148,104 @@ font-weight: bold;
   background-size: cover; /* A imagem cobre toda a área da página */
   background-repeat: no-repeat; /* Impede que a imagem se repita */
   background-position: center; /* Centraliza a imagem */
-  height: 100vh; /* Faz a imagem ocupar a altura total da viewport */
+  
   display: flex; /* Flexbox para centralizar conteúdo */
   justify-content: center; /* Centraliza horizontalmente */
   align-items: center; /* Centraliza verticalmente */
   color: white; /* Cor do texto para se destacar */
   text-align: center;
-  width: 1440px;
+  width: 100%;
   height: 363px;
+  top: 1138px;
   border: solid #33A8DB 1px 1px 1px;
 
+}
+
+#transform-world p {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  line-height: 1.2;
+  text-transform: lowercase;
+  text-align: left;
+  max-width: 190px; /* Limita a largura do texto */
+  margin: 0; /* Remove margens adicionais */
+  letter-spacing: 1px; /* Ajusta o espaçamento entre letras */
+  word-spacing: 5px; /* Ajusta o espaçamento entre palavras */
+  white-space: pre-line; /* Permite quebras de linha automáticas */
+  width: 344px;
+  height: 141px;
+  top: 111px;
+  left: 198px;
+  padding-left: 00px;
+  display: flex;
+  justify-content: flex-start;
+position: relative;
+left: -500px;
+top: -00px;
+
+
+
+
+
+}
+
+/* Estilos para o #professional-challenges */
+#professional-challenges {
+  background-color: #000; /* Fundo preto */
+  color: white;
+  text-align: center;
+  padding: 40px 20px; /* Espaçamento para a seção */
+}
+
+#professional-challenges h2 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #33A8DB; /* Cor azul */
+  margin-bottom: 20px;
+}
+
+#professional-challenges img {
+  max-width: 70%; /* Ajuste a largura da imagem para caber melhor */
+  height: auto;
+  margin: 20px 0; /* Espaçamento entre título e imagem */
+}
+
+#professional-challenges p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  max-width: 800px; /* Limite de largura para o texto */
+  margin: 0 auto; /* Centraliza o parágrafo */
+  color: #ddd; /* Cor do texto um pouco mais suave */
+  padding: 0 20px; /* Adiciona espaçamento interno nas laterais */
+}
+footer {
+  background-color: #000000; /* Fundo do rodapé */
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+footer .dio-logo {
+  width: 310px;
+  height: 44px;
+  margin-bottom: 10px;
+}
+
+footer p {
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #33A8DB;
+  text-decoration: none;
+  font: raleway;
+  width: 259px;
+  height: 19px;
+
+
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
