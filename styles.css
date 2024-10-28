@@ -97,6 +97,9 @@ text-align: center;
 color: #33A8DB; /* Cor azul claro para o título */
 font-size: 32px;
 margin-bottom: 20px;
+font: raleway;
+font-weight: 477px
+font-weight: 38px;
 }
 
 /* Estilo para o texto abaixo do título */
@@ -104,6 +107,7 @@ margin-bottom: 20px;
 color: #b0c4de;
 font-size: 18px;
 margin-bottom: 40px;
+max-width: 900px;
 }
 
 /* Estilos para os módulos */
@@ -192,6 +196,7 @@ top: -00px;
 
 /* Estilos para o #professional-challenges */
 #professional-challenges {
+  border: 1px solid #33A8DB;
   background-color: #000; /* Fundo preto */
   color: white;
   text-align: center;
@@ -224,6 +229,7 @@ footer {
   color: white;
   text-align: center;
   padding: 20px 0;
+  border: 1px solid #33A8DB;
 }
 
 footer .dio-logo {
@@ -237,7 +243,7 @@ footer p {
 }
 
 footer a {
-  color: #33A8DB;
+  border: 1px solid #33A8DB;
   text-decoration: none;
   font: raleway;
   width: 259px;
